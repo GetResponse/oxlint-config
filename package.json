@@ -1,0 +1,45 @@
+{
+  "name": "@getresponse/oxlint-config",
+  "version": "0.0.0",
+  "description": "GetResponse Oxlint config",
+  "keywords": [
+    "config",
+    "oxlint",
+    "oxlintconfig",
+    "getresponse",
+    "javascript",
+    "typescript",
+    "styleguide"
+  ],
+  "homepage": "https://github.com/getresponse/oxlint-config#readme",
+  "bugs": {
+    "url": "https://github.com/getresponse/oxlint-config/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GetResponse/oxlint-config.git"
+  },
+  "license": "MIT",
+  "author": "GetResponse (https://github.com/GetResponse)",
+  "type": "module",
+  "main": "./index.js",
+  "files": [
+    "./index.js"
+  ],
+  "scripts": {
+    "build": "npm run build:ts && npm run build:docs",
+    "build:ts": "echo 0",
+    "build:docs": "echo 0",
+    "release": "semantic-release",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/commit-analyzer": "13.0.1",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "12.0.6",
+    "@semantic-release/npm": "13.1.5",
+    "@semantic-release/release-notes-generator": "14.1.0",
+    "semantic-release": "25.0.3"
+  }
+}
