@@ -1,0 +1,1949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>@getresponse/oxlint-config — rules</title>
+<style>
+    html, body { margin: 0; padding: 0; background: #fff; color: #222; }
+    body { font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; font-size: 14px; line-height: 1.5; }
+    h1 { font-size: 24px; font-weight: 700; line-height: 1.1; text-align: center; position: sticky; top: 0; background: #fff; padding: .83em; margin: 0; z-index: 2; }
+    section { margin-bottom: 1em; }
+    p.summary { text-align: center; color: #666; margin: 0 0 1.5em; padding: 0 1em; }
+    table { width: 100%; border-spacing: 0; border-collapse: collapse; }
+    td, th { padding: 10px 20px; vertical-align: top; }
+    thead tr { background: #00baff; }
+    th { color: #fff; font-weight: 700; letter-spacing: .02em; text-align: left; }
+    tbody tr:nth-child(even) { background: #f6f3f3; }
+    tbody tr:hover { background: #ebfaff; }
+    .active-rules thead tr { position: sticky; top: 60px; }
+    .name { font-weight: 500; color: #0066cc; text-decoration: none; }
+    .name:hover { text-decoration: underline; }
+    .source { display: inline-block; margin-left: 0.5em; padding: 0.05em 0.4em; font-size: 0.75em; color: #666; background: #eee; border-radius: 3px; vertical-align: middle; }
+    .scope { color: #888; margin-top: 4px; font-size: 12px; font-family: "SF Mono", Menlo, Consolas, monospace; }
+    .status { text-align: center; font-weight: 600; }
+    .status.warn { color: #e4762d; }
+    .status.error { color: #e5101e; }
+    pre { font-family: "SF Mono", Menlo, Consolas, monospace; font-size: 12px; margin: 0; white-space: pre-wrap; word-break: break-all; }
+    col.col-rule { width: 50%; }
+    col.col-status { width: 12%; }
+    col.col-config { width: 38%; }
+</style>
+</head>
+<body>
+
+<section class="active-rules">
+    <h1>Active rules (305)</h1>
+    <table>
+        <colgroup>
+            <col class="col-rule">
+            <col class="col-status">
+            <col class="col-config">
+        </colgroup>
+        <thead>
+            <tr><th>Rule</th><th>Status</th><th>Configuration</th></tr>
+        </thead>
+        <tbody>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/array-bracket-spacing.html" target="_blank" rel="noopener">@stylistic/array-bracket-spacing</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/arrow-spacing.html" target="_blank" rel="noopener">@stylistic/arrow-spacing</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/block-spacing.html" target="_blank" rel="noopener">@stylistic/block-spacing</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/comma-dangle.html" target="_blank" rel="noopener">@stylistic/comma-dangle</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;arrays&quot;: &quot;always-multiline&quot;,
+    &quot;objects&quot;: &quot;always-multiline&quot;,
+    &quot;imports&quot;: &quot;always-multiline&quot;,
+    &quot;exports&quot;: &quot;always-multiline&quot;,
+    &quot;functions&quot;: &quot;always-multiline&quot;,
+    &quot;enums&quot;: &quot;always-multiline&quot;,
+    &quot;generics&quot;: &quot;always-multiline&quot;,
+    &quot;tuples&quot;: &quot;always-multiline&quot;
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/comma-spacing.html" target="_blank" rel="noopener">@stylistic/comma-spacing</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/comma-style.html" target="_blank" rel="noopener">@stylistic/comma-style</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/computed-property-spacing.html" target="_blank" rel="noopener">@stylistic/computed-property-spacing</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/dot-location.html" target="_blank" rel="noopener">@stylistic/dot-location</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  &quot;property&quot;
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/eol-last.html" target="_blank" rel="noopener">@stylistic/eol-last</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/function-call-argument-newline.html" target="_blank" rel="noopener">@stylistic/function-call-argument-newline</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  &quot;consistent&quot;
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/function-call-spacing.html" target="_blank" rel="noopener">@stylistic/function-call-spacing</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/indent.html" target="_blank" rel="noopener">@stylistic/indent</a> <span class="source">@stylistic</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  4,
+  {
+    &quot;SwitchCase&quot;: 1
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/jsx-quotes.html" target="_blank" rel="noopener">@stylistic/jsx-quotes</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  &quot;prefer-double&quot;
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/key-spacing.html" target="_blank" rel="noopener">@stylistic/key-spacing</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/keyword-spacing.html" target="_blank" rel="noopener">@stylistic/keyword-spacing</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/lines-between-class-members.html" target="_blank" rel="noopener">@stylistic/lines-between-class-members</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  &quot;always&quot;,
+  {
+    &quot;exceptAfterSingleLine&quot;: true
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/max-len.html" target="_blank" rel="noopener">@stylistic/max-len</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  140,
+  4
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/member-delimiter-style.html" target="_blank" rel="noopener">@stylistic/member-delimiter-style</a> <span class="source">@stylistic</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/newline-per-chained-call.html" target="_blank" rel="noopener">@stylistic/newline-per-chained-call</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;ignoreChainWithDepth&quot;: 3
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/no-extra-semi.html" target="_blank" rel="noopener">@stylistic/no-extra-semi</a> <span class="source">@stylistic</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/no-floating-decimal.html" target="_blank" rel="noopener">@stylistic/no-floating-decimal</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/no-mixed-spaces-and-tabs.html" target="_blank" rel="noopener">@stylistic/no-mixed-spaces-and-tabs</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/no-multi-spaces.html" target="_blank" rel="noopener">@stylistic/no-multi-spaces</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/no-multiple-empty-lines.html" target="_blank" rel="noopener">@stylistic/no-multiple-empty-lines</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;max&quot;: 1
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/no-tabs.html" target="_blank" rel="noopener">@stylistic/no-tabs</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/no-trailing-spaces.html" target="_blank" rel="noopener">@stylistic/no-trailing-spaces</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/no-whitespace-before-property.html" target="_blank" rel="noopener">@stylistic/no-whitespace-before-property</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/object-curly-spacing.html" target="_blank" rel="noopener">@stylistic/object-curly-spacing</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  &quot;always&quot;
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/padded-blocks.html" target="_blank" rel="noopener">@stylistic/padded-blocks</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;blocks&quot;: &quot;never&quot;,
+    &quot;classes&quot;: &quot;always&quot;,
+    &quot;switches&quot;: &quot;never&quot;
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/quote-props.html" target="_blank" rel="noopener">@stylistic/quote-props</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  &quot;as-needed&quot;
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/quotes.html" target="_blank" rel="noopener">@stylistic/quotes</a> <span class="source">@stylistic</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  &quot;single&quot;,
+  {
+    &quot;avoidEscape&quot;: true
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/rest-spread-spacing.html" target="_blank" rel="noopener">@stylistic/rest-spread-spacing</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/semi.html" target="_blank" rel="noopener">@stylistic/semi</a> <span class="source">@stylistic</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  &quot;always&quot;
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/semi-spacing.html" target="_blank" rel="noopener">@stylistic/semi-spacing</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/space-before-blocks.html" target="_blank" rel="noopener">@stylistic/space-before-blocks</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/space-before-function-paren.html" target="_blank" rel="noopener">@stylistic/space-before-function-paren</a> <span class="source">@stylistic</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;anonymous&quot;: &quot;always&quot;,
+    &quot;named&quot;: &quot;never&quot;
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/space-in-parens.html" target="_blank" rel="noopener">@stylistic/space-in-parens</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/template-curly-spacing.html" target="_blank" rel="noopener">@stylistic/template-curly-spacing</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/template-tag-spacing.html" target="_blank" rel="noopener">@stylistic/template-tag-spacing</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/type-annotation-spacing.html" target="_blank" rel="noopener">@stylistic/type-annotation-spacing</a> <span class="source">@stylistic</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/@stylistic/wrap-iife.html" target="_blank" rel="noopener">@stylistic/wrap-iife</a> <span class="source">@stylistic</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/accessor-pairs.html" target="_blank" rel="noopener">accessor-pairs</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/array-callback-return.html" target="_blank" rel="noopener">array-callback-return</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/arrow-body-style.html" target="_blank" rel="noopener">arrow-body-style</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  &quot;as-needed&quot;
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/constructor-super.html" target="_blank" rel="noopener">constructor-super</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/curly.html" target="_blank" rel="noopener">curly</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/eqeqeq.html" target="_blank" rel="noopener">eqeqeq</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/for-direction.html" target="_blank" rel="noopener">for-direction</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/func-names.html" target="_blank" rel="noopener">func-names</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/getter-return.html" target="_blank" rel="noopener">getter-return</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre>[
+  {
+    &quot;allowImplicit&quot;: true
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/grouped-accessor-pairs.html" target="_blank" rel="noopener">grouped-accessor-pairs</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/guard-for-in.html" target="_blank" rel="noopener">guard-for-in</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/consistent-test-it.html" target="_blank" rel="noopener">jest/consistent-test-it</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status error">error</td>
+        <td><pre>[
+  {
+    &quot;fn&quot;: &quot;test&quot;,
+    &quot;withinDescribe&quot;: &quot;it&quot;
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/no-commented-out-tests.html" target="_blank" rel="noopener">jest/no-commented-out-tests</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/no-conditional-expect.html" target="_blank" rel="noopener">jest/no-conditional-expect</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/no-disabled-tests.html" target="_blank" rel="noopener">jest/no-disabled-tests</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/no-duplicate-hooks.html" target="_blank" rel="noopener">jest/no-duplicate-hooks</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/no-export.html" target="_blank" rel="noopener">jest/no-export</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/no-focused-tests.html" target="_blank" rel="noopener">jest/no-focused-tests</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/no-identical-title.html" target="_blank" rel="noopener">jest/no-identical-title</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/no-jasmine-globals.html" target="_blank" rel="noopener">jest/no-jasmine-globals</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/no-mocks-import.html" target="_blank" rel="noopener">jest/no-mocks-import</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/no-restricted-matchers.html" target="_blank" rel="noopener">jest/no-restricted-matchers</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;toBeTruthy&quot;: &quot;Avoid `toBeTruthy`&quot;,
+    &quot;toBeFalsy&quot;: &quot;Avoid `toBeFalsy`&quot;
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/no-standalone-expect.html" target="_blank" rel="noopener">jest/no-standalone-expect</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/no-test-prefixes.html" target="_blank" rel="noopener">jest/no-test-prefixes</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/prefer-hooks-on-top.html" target="_blank" rel="noopener">jest/prefer-hooks-on-top</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/prefer-lowercase-title.html" target="_blank" rel="noopener">jest/prefer-lowercase-title</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;ignore&quot;: [
+      &quot;describe&quot;
+    ]
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/prefer-to-be.html" target="_blank" rel="noopener">jest/prefer-to-be</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/prefer-to-contain.html" target="_blank" rel="noopener">jest/prefer-to-contain</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/prefer-to-have-length.html" target="_blank" rel="noopener">jest/prefer-to-have-length</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/prefer-todo.html" target="_blank" rel="noopener">jest/prefer-todo</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/require-top-level-describe.html" target="_blank" rel="noopener">jest/require-top-level-describe</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/valid-describe-callback.html" target="_blank" rel="noopener">jest/valid-describe-callback</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/valid-expect.html" target="_blank" rel="noopener">jest/valid-expect</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/valid-expect-in-promise.html" target="_blank" rel="noopener">jest/valid-expect-in-promise</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jest/valid-title.html" target="_blank" rel="noopener">jest/valid-title</a> <span class="source">jest</span><div class="scope">**/*.test.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/*.spec.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__mocks__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}, **/__tests__/**/*.{ts,tsx,js,jsx,mts,mjs,cts,cjs}</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y-js/control-has-associated-label.html" target="_blank" rel="noopener">jsx-a11y-js/control-has-associated-label</a> <span class="source">jsx-a11y-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y-js/interactive-supports-focus.html" target="_blank" rel="noopener">jsx-a11y-js/interactive-supports-focus</a> <span class="source">jsx-a11y-js</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y-js/no-interactive-element-to-noninteractive-role.html" target="_blank" rel="noopener">jsx-a11y-js/no-interactive-element-to-noninteractive-role</a> <span class="source">jsx-a11y-js</span></td>
+        <td class="status error">error</td>
+        <td><pre>[
+  {
+    &quot;tr&quot;: [
+      &quot;none&quot;,
+      &quot;presentation&quot;
+    ]
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y-js/no-noninteractive-element-interactions.html" target="_blank" rel="noopener">jsx-a11y-js/no-noninteractive-element-interactions</a> <span class="source">jsx-a11y-js</span></td>
+        <td class="status error">error</td>
+        <td><pre>[
+  {
+    &quot;handlers&quot;: [
+      &quot;onClick&quot;,
+      &quot;onMouseDown&quot;,
+      &quot;onMouseUp&quot;,
+      &quot;onKeyPress&quot;,
+      &quot;onKeyDown&quot;,
+      &quot;onKeyUp&quot;
+    ]
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y-js/no-noninteractive-element-to-interactive-role.html" target="_blank" rel="noopener">jsx-a11y-js/no-noninteractive-element-to-interactive-role</a> <span class="source">jsx-a11y-js</span></td>
+        <td class="status error">error</td>
+        <td><pre>[
+  {
+    &quot;ul&quot;: [
+      &quot;listbox&quot;,
+      &quot;menu&quot;,
+      &quot;menubar&quot;,
+      &quot;radiogroup&quot;,
+      &quot;tablist&quot;,
+      &quot;tree&quot;,
+      &quot;treegrid&quot;
+    ],
+    &quot;ol&quot;: [
+      &quot;listbox&quot;,
+      &quot;menu&quot;,
+      &quot;menubar&quot;,
+      &quot;radiogroup&quot;,
+      &quot;tablist&quot;,
+      &quot;tree&quot;,
+      &quot;treegrid&quot;
+    ],
+    &quot;li&quot;: [
+      &quot;menuitem&quot;,
+      &quot;option&quot;,
+      &quot;row&quot;,
+      &quot;tab&quot;,
+      &quot;treeitem&quot;
+    ],
+    &quot;table&quot;: [
+      &quot;grid&quot;
+    ],
+    &quot;td&quot;: [
+      &quot;gridcell&quot;
+    ]
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/alt-text.html" target="_blank" rel="noopener">jsx-a11y/alt-text</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre>[
+  {
+    &quot;elements&quot;: [
+      &quot;img&quot;,
+      &quot;object&quot;,
+      &quot;area&quot;,
+      &quot;input[type=\&quot;image\&quot;]&quot;
+    ],
+    &quot;img&quot;: [],
+    &quot;object&quot;: [],
+    &quot;area&quot;: [],
+    &quot;input[type=\&quot;image\&quot;]&quot;: []
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/anchor-has-content.html" target="_blank" rel="noopener">jsx-a11y/anchor-has-content</a> <span class="source">jsx-a11y</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;components&quot;: [
+      &quot;Link&quot;
+    ]
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/aria-activedescendant-has-tabindex.html" target="_blank" rel="noopener">jsx-a11y/aria-activedescendant-has-tabindex</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/aria-props.html" target="_blank" rel="noopener">jsx-a11y/aria-props</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/aria-proptypes.html" target="_blank" rel="noopener">jsx-a11y/aria-proptypes</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/aria-role.html" target="_blank" rel="noopener">jsx-a11y/aria-role</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre>[
+  {
+    &quot;ignoreNonDom&quot;: false
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/aria-unsupported-elements.html" target="_blank" rel="noopener">jsx-a11y/aria-unsupported-elements</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/autocomplete-valid.html" target="_blank" rel="noopener">jsx-a11y/autocomplete-valid</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/heading-has-content.html" target="_blank" rel="noopener">jsx-a11y/heading-has-content</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre>[
+  {
+    &quot;components&quot;: [
+      &quot;&quot;
+    ]
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/html-has-lang.html" target="_blank" rel="noopener">jsx-a11y/html-has-lang</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/iframe-has-title.html" target="_blank" rel="noopener">jsx-a11y/iframe-has-title</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/img-redundant-alt.html" target="_blank" rel="noopener">jsx-a11y/img-redundant-alt</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/lang.html" target="_blank" rel="noopener">jsx-a11y/lang</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/media-has-caption.html" target="_blank" rel="noopener">jsx-a11y/media-has-caption</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre>[
+  {
+    &quot;audio&quot;: [],
+    &quot;video&quot;: [],
+    &quot;track&quot;: []
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/no-access-key.html" target="_blank" rel="noopener">jsx-a11y/no-access-key</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/no-autofocus.html" target="_blank" rel="noopener">jsx-a11y/no-autofocus</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre>[
+  {
+    &quot;ignoreNonDOM&quot;: true
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/no-distracting-elements.html" target="_blank" rel="noopener">jsx-a11y/no-distracting-elements</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre>[
+  {
+    &quot;elements&quot;: [
+      &quot;marquee&quot;,
+      &quot;blink&quot;
+    ]
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/no-noninteractive-tabindex.html" target="_blank" rel="noopener">jsx-a11y/no-noninteractive-tabindex</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre>[
+  {
+    &quot;tags&quot;: [],
+    &quot;roles&quot;: [
+      &quot;tabpanel&quot;
+    ]
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/no-redundant-roles.html" target="_blank" rel="noopener">jsx-a11y/no-redundant-roles</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/no-static-element-interactions.html" target="_blank" rel="noopener">jsx-a11y/no-static-element-interactions</a> <span class="source">jsx-a11y</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;handlers&quot;: [
+      &quot;onClick&quot;,
+      &quot;onMouseDown&quot;,
+      &quot;onMouseUp&quot;,
+      &quot;onKeyPress&quot;,
+      &quot;onKeyDown&quot;,
+      &quot;onKeyUp&quot;
+    ]
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/role-has-required-aria-props.html" target="_blank" rel="noopener">jsx-a11y/role-has-required-aria-props</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/role-supports-aria-props.html" target="_blank" rel="noopener">jsx-a11y/role-supports-aria-props</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/scope.html" target="_blank" rel="noopener">jsx-a11y/scope</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/jsx-a11y/tabindex-no-positive.html" target="_blank" rel="noopener">jsx-a11y/tabindex-no-positive</a> <span class="source">jsx-a11y</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-await-in-loop.html" target="_blank" rel="noopener">no-await-in-loop</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-caller.html" target="_blank" rel="noopener">no-caller</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-class-assign.html" target="_blank" rel="noopener">no-class-assign</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-compare-neg-zero.html" target="_blank" rel="noopener">no-compare-neg-zero</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-cond-assign.html" target="_blank" rel="noopener">no-cond-assign</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-console.html" target="_blank" rel="noopener">no-console</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-const-assign.html" target="_blank" rel="noopener">no-const-assign</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-constant-binary-expression.html" target="_blank" rel="noopener">no-constant-binary-expression</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-constructor-return.html" target="_blank" rel="noopener">no-constructor-return</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-debugger.html" target="_blank" rel="noopener">no-debugger</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-dupe-else-if.html" target="_blank" rel="noopener">no-dupe-else-if</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-dupe-keys.html" target="_blank" rel="noopener">no-dupe-keys</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-duplicate-case.html" target="_blank" rel="noopener">no-duplicate-case</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-duplicate-imports.html" target="_blank" rel="noopener">no-duplicate-imports</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-empty.html" target="_blank" rel="noopener">no-empty</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;allowEmptyCatch&quot;: true
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-empty-character-class.html" target="_blank" rel="noopener">no-empty-character-class</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-empty-pattern.html" target="_blank" rel="noopener">no-empty-pattern</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-eval.html" target="_blank" rel="noopener">no-eval</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-ex-assign.html" target="_blank" rel="noopener">no-ex-assign</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-extend-native.html" target="_blank" rel="noopener">no-extend-native</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-extra-bind.html" target="_blank" rel="noopener">no-extra-bind</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-extra-boolean-cast.html" target="_blank" rel="noopener">no-extra-boolean-cast</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-func-assign.html" target="_blank" rel="noopener">no-func-assign</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-global-assign.html" target="_blank" rel="noopener">no-global-assign</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-import-assign.html" target="_blank" rel="noopener">no-import-assign</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-inner-declarations.html" target="_blank" rel="noopener">no-inner-declarations</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-invalid-regexp.html" target="_blank" rel="noopener">no-invalid-regexp</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-irregular-whitespace.html" target="_blank" rel="noopener">no-irregular-whitespace</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;skipStrings&quot;: true
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-iterator.html" target="_blank" rel="noopener">no-iterator</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-labels.html" target="_blank" rel="noopener">no-labels</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-lone-blocks.html" target="_blank" rel="noopener">no-lone-blocks</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-lonely-if.html" target="_blank" rel="noopener">no-lonely-if</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-loop-func.html" target="_blank" rel="noopener">no-loop-func</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-loss-of-precision.html" target="_blank" rel="noopener">no-loss-of-precision</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-misleading-character-class.html" target="_blank" rel="noopener">no-misleading-character-class</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-negated-condition.html" target="_blank" rel="noopener">no-negated-condition</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-nested-ternary.html" target="_blank" rel="noopener">no-nested-ternary</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-new-func.html" target="_blank" rel="noopener">no-new-func</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-new-native-nonconstructor.html" target="_blank" rel="noopener">no-new-native-nonconstructor</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-new-wrappers.html" target="_blank" rel="noopener">no-new-wrappers</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-nonoctal-decimal-escape.html" target="_blank" rel="noopener">no-nonoctal-decimal-escape</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-obj-calls.html" target="_blank" rel="noopener">no-obj-calls</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-object-constructor.html" target="_blank" rel="noopener">no-object-constructor</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-param-reassign.html" target="_blank" rel="noopener">no-param-reassign</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-proto.html" target="_blank" rel="noopener">no-proto</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-script-url.html" target="_blank" rel="noopener">no-script-url</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-self-assign.html" target="_blank" rel="noopener">no-self-assign</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-self-compare.html" target="_blank" rel="noopener">no-self-compare</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-setter-return.html" target="_blank" rel="noopener">no-setter-return</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-shadow-restricted-names.html" target="_blank" rel="noopener">no-shadow-restricted-names</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-sparse-arrays.html" target="_blank" rel="noopener">no-sparse-arrays</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-template-curly-in-string.html" target="_blank" rel="noopener">no-template-curly-in-string</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-this-before-super.html" target="_blank" rel="noopener">no-this-before-super</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-undef.html" target="_blank" rel="noopener">no-undef</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-unexpected-multiline.html" target="_blank" rel="noopener">no-unexpected-multiline</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-unneeded-ternary.html" target="_blank" rel="noopener">no-unneeded-ternary</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-unreachable.html" target="_blank" rel="noopener">no-unreachable</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-unsafe-negation.html" target="_blank" rel="noopener">no-unsafe-negation</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-unsafe-optional-chaining.html" target="_blank" rel="noopener">no-unsafe-optional-chaining</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-unused-private-class-members.html" target="_blank" rel="noopener">no-unused-private-class-members</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-useless-backreference.html" target="_blank" rel="noopener">no-useless-backreference</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-useless-call.html" target="_blank" rel="noopener">no-useless-call</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-useless-catch.html" target="_blank" rel="noopener">no-useless-catch</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-useless-concat.html" target="_blank" rel="noopener">no-useless-concat</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-useless-escape.html" target="_blank" rel="noopener">no-useless-escape</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-useless-rename.html" target="_blank" rel="noopener">no-useless-rename</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-useless-return.html" target="_blank" rel="noopener">no-useless-return</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/no-with.html" target="_blank" rel="noopener">no-with</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/object-shorthand.html" target="_blank" rel="noopener">object-shorthand</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  &quot;always&quot;,
+  {
+    &quot;avoidQuotes&quot;: true,
+    &quot;ignoreConstructors&quot;: true,
+    &quot;avoidExplicitReturnArrows&quot;: true
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/max-nested-describe.html" target="_blank" rel="noopener">playwright/max-nested-describe</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status error">error</td>
+        <td><pre>[
+  {
+    &quot;max&quot;: 2
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/missing-playwright-await.html" target="_blank" rel="noopener">playwright/missing-playwright-await</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/no-conditional-expect.html" target="_blank" rel="noopener">playwright/no-conditional-expect</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/no-duplicate-hooks.html" target="_blank" rel="noopener">playwright/no-duplicate-hooks</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/no-element-handle.html" target="_blank" rel="noopener">playwright/no-element-handle</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/no-eval.html" target="_blank" rel="noopener">playwright/no-eval</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/no-focused-test.html" target="_blank" rel="noopener">playwright/no-focused-test</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/no-force-option.html" target="_blank" rel="noopener">playwright/no-force-option</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/no-get-by-title.html" target="_blank" rel="noopener">playwright/no-get-by-title</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/no-nested-step.html" target="_blank" rel="noopener">playwright/no-nested-step</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/no-networkidle.html" target="_blank" rel="noopener">playwright/no-networkidle</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/no-page-pause.html" target="_blank" rel="noopener">playwright/no-page-pause</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/no-standalone-expect.html" target="_blank" rel="noopener">playwright/no-standalone-expect</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/no-unsafe-references.html" target="_blank" rel="noopener">playwright/no-unsafe-references</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/no-useless-await.html" target="_blank" rel="noopener">playwright/no-useless-await</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/no-useless-not.html" target="_blank" rel="noopener">playwright/no-useless-not</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/no-wait-for-selector.html" target="_blank" rel="noopener">playwright/no-wait-for-selector</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/no-wait-for-timeout.html" target="_blank" rel="noopener">playwright/no-wait-for-timeout</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/prefer-hooks-on-top.html" target="_blank" rel="noopener">playwright/prefer-hooks-on-top</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/prefer-strict-equal.html" target="_blank" rel="noopener">playwright/prefer-strict-equal</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/prefer-to-contain.html" target="_blank" rel="noopener">playwright/prefer-to-contain</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/prefer-to-have-count.html" target="_blank" rel="noopener">playwright/prefer-to-have-count</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/prefer-to-have-length.html" target="_blank" rel="noopener">playwright/prefer-to-have-length</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/prefer-web-first-assertions.html" target="_blank" rel="noopener">playwright/prefer-web-first-assertions</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/valid-describe-callback.html" target="_blank" rel="noopener">playwright/valid-describe-callback</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/valid-expect.html" target="_blank" rel="noopener">playwright/valid-expect</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/playwright/valid-expect-in-promise.html" target="_blank" rel="noopener">playwright/valid-expect-in-promise</a> <span class="source">playwright</span><div class="scope">e2e/**/*.@(spec|test).?(c|m)[jt]s?(x)</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/prefer-const.html" target="_blank" rel="noopener">prefer-const</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/prefer-destructuring.html" target="_blank" rel="noopener">prefer-destructuring</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;VariableDeclarator&quot;: {
+      &quot;array&quot;: false,
+      &quot;object&quot;: true
+    }
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/prefer-object-has-own.html" target="_blank" rel="noopener">prefer-object-has-own</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/prefer-rest-params.html" target="_blank" rel="noopener">prefer-rest-params</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/prefer-spread.html" target="_blank" rel="noopener">prefer-spread</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/prefer-template.html" target="_blank" rel="noopener">prefer-template</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/jsx-closing-bracket-location.html" target="_blank" rel="noopener">react-js/jsx-closing-bracket-location</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  &quot;tag-aligned&quot;
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/jsx-closing-tag-location.html" target="_blank" rel="noopener">react-js/jsx-closing-tag-location</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/jsx-curly-newline.html" target="_blank" rel="noopener">react-js/jsx-curly-newline</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/jsx-curly-spacing.html" target="_blank" rel="noopener">react-js/jsx-curly-spacing</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  &quot;never&quot;
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/jsx-equals-spacing.html" target="_blank" rel="noopener">react-js/jsx-equals-spacing</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  &quot;never&quot;
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/jsx-indent.html" target="_blank" rel="noopener">react-js/jsx-indent</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  4
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/jsx-max-props-per-line.html" target="_blank" rel="noopener">react-js/jsx-max-props-per-line</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;maximum&quot;: 1,
+    &quot;when&quot;: &quot;multiline&quot;
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/jsx-no-leaked-render.html" target="_blank" rel="noopener">react-js/jsx-no-leaked-render</a> <span class="source">react-js</span></td>
+        <td class="status error">error</td>
+        <td><pre>[
+  {
+    &quot;validStrategies&quot;: [
+      &quot;ternary&quot;
+    ]
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/jsx-props-no-multi-spaces.html" target="_blank" rel="noopener">react-js/jsx-props-no-multi-spaces</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/jsx-tag-spacing.html" target="_blank" rel="noopener">react-js/jsx-tag-spacing</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;closingSlash&quot;: &quot;never&quot;,
+    &quot;beforeSelfClosing&quot;: &quot;never&quot;,
+    &quot;afterOpening&quot;: &quot;never&quot;,
+    &quot;beforeClosing&quot;: &quot;never&quot;
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/jsx-wrap-multilines.html" target="_blank" rel="noopener">react-js/jsx-wrap-multilines</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/no-access-state-in-setstate.html" target="_blank" rel="noopener">react-js/no-access-state-in-setstate</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/no-adjacent-inline-elements.html" target="_blank" rel="noopener">react-js/no-adjacent-inline-elements</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/no-arrow-function-lifecycle.html" target="_blank" rel="noopener">react-js/no-arrow-function-lifecycle</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/no-deprecated.html" target="_blank" rel="noopener">react-js/no-deprecated</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/no-did-update-set-state.html" target="_blank" rel="noopener">react-js/no-did-update-set-state</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/no-typos.html" target="_blank" rel="noopener">react-js/no-typos</a> <span class="source">react-js</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/no-unstable-nested-components.html" target="_blank" rel="noopener">react-js/no-unstable-nested-components</a> <span class="source">react-js</span></td>
+        <td class="status error">error</td>
+        <td><pre>[
+  {
+    &quot;allowAsProps&quot;: true
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/no-unused-state.html" target="_blank" rel="noopener">react-js/no-unused-state</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/prefer-stateless-function.html" target="_blank" rel="noopener">react-js/prefer-stateless-function</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;ignorePureComponents&quot;: true
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/sort-comp.html" target="_blank" rel="noopener">react-js/sort-comp</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;order&quot;: [
+      &quot;static-variables&quot;,
+      &quot;static-methods&quot;,
+      &quot;instance-variables&quot;,
+      &quot;lifecycle&quot;,
+      &quot;everything-else&quot;,
+      &quot;render&quot;
+    ],
+    &quot;groups&quot;: {
+      &quot;lifecycle&quot;: [
+        &quot;displayName&quot;,
+        &quot;propTypes&quot;,
+        &quot;contextTypes&quot;,
+        &quot;childContextTypes&quot;,
+        &quot;mixins&quot;,
+        &quot;statics&quot;,
+        &quot;defaultProps&quot;,
+        &quot;getDefaultProps&quot;,
+        &quot;state&quot;,
+        &quot;getInitialState&quot;,
+        &quot;constructor&quot;,
+        &quot;getChildContext&quot;,
+        &quot;getDerivedStateFromProps&quot;,
+        &quot;componentWillMount&quot;,
+        &quot;UNSAFE_componentWillMount&quot;,
+        &quot;componentDidMount&quot;,
+        &quot;componentWillReceiveProps&quot;,
+        &quot;UNSAFE_componentWillReceiveProps&quot;,
+        &quot;shouldComponentUpdate&quot;,
+        &quot;componentWillUpdate&quot;,
+        &quot;UNSAFE_componentWillUpdate&quot;,
+        &quot;getSnapshotBeforeUpdate&quot;,
+        &quot;componentDidUpdate&quot;,
+        &quot;componentDidCatch&quot;,
+        &quot;componentWillUnmount&quot;
+      ]
+    }
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react-js/static-property-placement.html" target="_blank" rel="noopener">react-js/static-property-placement</a> <span class="source">react-js</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/button-has-type.html" target="_blank" rel="noopener">react/button-has-type</a> <span class="source">react</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/exhaustive-deps.html" target="_blank" rel="noopener">react/exhaustive-deps</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/iframe-missing-sandbox.html" target="_blank" rel="noopener">react/iframe-missing-sandbox</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/jsx-boolean-value.html" target="_blank" rel="noopener">react/jsx-boolean-value</a> <span class="source">react</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  &quot;always&quot;
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/jsx-curly-brace-presence.html" target="_blank" rel="noopener">react/jsx-curly-brace-presence</a> <span class="source">react</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;props&quot;: &quot;never&quot;,
+    &quot;children&quot;: &quot;never&quot;
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/jsx-filename-extension.html" target="_blank" rel="noopener">react/jsx-filename-extension</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre>[
+  {
+    &quot;extensions&quot;: [
+      &quot;.js&quot;,
+      &quot;.jsx&quot;,
+      &quot;.tsx&quot;,
+      &quot;.mdx&quot;
+    ]
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/jsx-fragments.html" target="_blank" rel="noopener">react/jsx-fragments</a> <span class="source">react</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  &quot;element&quot;
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/jsx-handler-names.html" target="_blank" rel="noopener">react/jsx-handler-names</a> <span class="source">react</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/jsx-key.html" target="_blank" rel="noopener">react/jsx-key</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/jsx-max-depth.html" target="_blank" rel="noopener">react/jsx-max-depth</a> <span class="source">react</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;max&quot;: 13
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/jsx-no-comment-textnodes.html" target="_blank" rel="noopener">react/jsx-no-comment-textnodes</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/jsx-no-constructed-context-values.html" target="_blank" rel="noopener">react/jsx-no-constructed-context-values</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/jsx-no-duplicate-props.html" target="_blank" rel="noopener">react/jsx-no-duplicate-props</a> <span class="source">react</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/jsx-no-script-url.html" target="_blank" rel="noopener">react/jsx-no-script-url</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/jsx-no-useless-fragment.html" target="_blank" rel="noopener">react/jsx-no-useless-fragment</a> <span class="source">react</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;allowExpressions&quot;: true
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/jsx-pascal-case.html" target="_blank" rel="noopener">react/jsx-pascal-case</a> <span class="source">react</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/no-array-index-key.html" target="_blank" rel="noopener">react/no-array-index-key</a> <span class="source">react</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/no-children-prop.html" target="_blank" rel="noopener">react/no-children-prop</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/no-danger-with-children.html" target="_blank" rel="noopener">react/no-danger-with-children</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/no-did-mount-set-state.html" target="_blank" rel="noopener">react/no-did-mount-set-state</a> <span class="source">react</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/no-direct-mutation-state.html" target="_blank" rel="noopener">react/no-direct-mutation-state</a> <span class="source">react</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/no-find-dom-node.html" target="_blank" rel="noopener">react/no-find-dom-node</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/no-is-mounted.html" target="_blank" rel="noopener">react/no-is-mounted</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/no-multi-comp.html" target="_blank" rel="noopener">react/no-multi-comp</a> <span class="source">react</span></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;ignoreStateless&quot;: true
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/no-namespace.html" target="_blank" rel="noopener">react/no-namespace</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/no-render-return-value.html" target="_blank" rel="noopener">react/no-render-return-value</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/no-string-refs.html" target="_blank" rel="noopener">react/no-string-refs</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/no-this-in-sfc.html" target="_blank" rel="noopener">react/no-this-in-sfc</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/no-unescaped-entities.html" target="_blank" rel="noopener">react/no-unescaped-entities</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/no-will-update-set-state.html" target="_blank" rel="noopener">react/no-will-update-set-state</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/prefer-es6-class.html" target="_blank" rel="noopener">react/prefer-es6-class</a> <span class="source">react</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/react-in-jsx-scope.html" target="_blank" rel="noopener">react/react-in-jsx-scope</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/require-render-return.html" target="_blank" rel="noopener">react/require-render-return</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/rules-of-hooks.html" target="_blank" rel="noopener">react/rules-of-hooks</a> <span class="source">react</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/react/self-closing-comp.html" target="_blank" rel="noopener">react/self-closing-comp</a> <span class="source">react</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/adjacent-overload-signatures.html" target="_blank" rel="noopener">typescript/adjacent-overload-signatures</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/array-type.html" target="_blank" rel="noopener">typescript/array-type</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;default&quot;: &quot;array-simple&quot;
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/ban-ts-comment.html" target="_blank" rel="noopener">typescript/ban-ts-comment</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/consistent-type-assertions.html" target="_blank" rel="noopener">typescript/consistent-type-assertions</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;assertionStyle&quot;: &quot;as&quot;
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/consistent-type-imports.html" target="_blank" rel="noopener">typescript/consistent-type-imports</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;prefer&quot;: &quot;type-imports&quot;,
+    &quot;fixStyle&quot;: &quot;inline-type-imports&quot;,
+    &quot;disallowTypeAnnotations&quot;: false
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/default-param-last.html" target="_blank" rel="noopener">typescript/default-param-last</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-array-constructor.html" target="_blank" rel="noopener">typescript/no-array-constructor</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-dupe-class-members.html" target="_blank" rel="noopener">typescript/no-dupe-class-members</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-duplicate-type-constituents.html" target="_blank" rel="noopener">typescript/no-duplicate-type-constituents</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-empty-function.html" target="_blank" rel="noopener">typescript/no-empty-function</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-explicit-any.html" target="_blank" rel="noopener">typescript/no-explicit-any</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;ignoreRestArgs&quot;: true
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-extra-non-null-assertion.html" target="_blank" rel="noopener">typescript/no-extra-non-null-assertion</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-for-in-array.html" target="_blank" rel="noopener">typescript/no-for-in-array</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-implied-eval.html" target="_blank" rel="noopener">typescript/no-implied-eval</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-inferrable-types.html" target="_blank" rel="noopener">typescript/no-inferrable-types</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;ignoreParameters&quot;: true,
+    &quot;ignoreProperties&quot;: true
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-misused-new.html" target="_blank" rel="noopener">typescript/no-misused-new</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-misused-promises.html" target="_blank" rel="noopener">typescript/no-misused-promises</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status error">error</td>
+        <td><pre>[
+  {
+    &quot;checksVoidReturn&quot;: false
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-non-null-asserted-optional-chain.html" target="_blank" rel="noopener">typescript/no-non-null-asserted-optional-chain</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-redeclare.html" target="_blank" rel="noopener">typescript/no-redeclare</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-require-imports.html" target="_blank" rel="noopener">typescript/no-require-imports</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-shadow.html" target="_blank" rel="noopener">typescript/no-shadow</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;ignoreOnInitialization&quot;: true
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-this-alias.html" target="_blank" rel="noopener">typescript/no-this-alias</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-unnecessary-qualifier.html" target="_blank" rel="noopener">typescript/no-unnecessary-qualifier</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-unnecessary-type-arguments.html" target="_blank" rel="noopener">typescript/no-unnecessary-type-arguments</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-unused-expressions.html" target="_blank" rel="noopener">typescript/no-unused-expressions</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;allowTernary&quot;: true
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-unused-vars.html" target="_blank" rel="noopener">typescript/no-unused-vars</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;ignoreRestSiblings&quot;: true
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-use-before-define.html" target="_blank" rel="noopener">typescript/no-use-before-define</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre>[
+  {
+    &quot;functions&quot;: false,
+    &quot;classes&quot;: false,
+    &quot;enums&quot;: true,
+    &quot;variables&quot;: true,
+    &quot;typedefs&quot;: false
+  }
+]</pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/no-useless-constructor.html" target="_blank" rel="noopener">typescript/no-useless-constructor</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/only-throw-error.html" target="_blank" rel="noopener">typescript/only-throw-error</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/prefer-as-const.html" target="_blank" rel="noopener">typescript/prefer-as-const</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/prefer-for-of.html" target="_blank" rel="noopener">typescript/prefer-for-of</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/prefer-includes.html" target="_blank" rel="noopener">typescript/prefer-includes</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/prefer-namespace-keyword.html" target="_blank" rel="noopener">typescript/prefer-namespace-keyword</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/prefer-optional-chain.html" target="_blank" rel="noopener">typescript/prefer-optional-chain</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/prefer-string-starts-ends-with.html" target="_blank" rel="noopener">typescript/prefer-string-starts-ends-with</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/require-await.html" target="_blank" rel="noopener">typescript/require-await</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/typescript/triple-slash-reference.html" target="_blank" rel="noopener">typescript/triple-slash-reference</a> <span class="source">typescript</span><div class="scope">**/*.ts, **/*.tsx, **/*.mts, **/*.cts</div></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/use-isnan.html" target="_blank" rel="noopener">use-isnan</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/valid-typeof.html" target="_blank" rel="noopener">valid-typeof</a> <span class="source">eslint</span></td>
+        <td class="status error">error</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/vars-on-top.html" target="_blank" rel="noopener">vars-on-top</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr>
+    <tr>
+        <td><a class="name" href="https://oxc.rs/docs/guide/usage/linter/rules/eslint/yoda.html" target="_blank" rel="noopener">yoda</a> <span class="source">eslint</span></td>
+        <td class="status warn">warn</td>
+        <td><pre> - </pre></td>
+    </tr></tbody>
+    </table>
+</section>
+</body>
+</html>
