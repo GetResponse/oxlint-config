@@ -22,24 +22,64 @@
   "license": "MIT",
   "author": "GetResponse (https://github.com/GetResponse)",
   "type": "module",
-  "main": "./index.js",
+  "main": "dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./a11y": {
+      "types": "./dist/mixins/a11y.d.ts",
+      "default": "./dist/mixins/a11y.js"
+    },
+    "./mixins/a11y": {
+      "types": "./dist/mixins/a11y.d.ts",
+      "default": "./dist/mixins/a11y.js"
+    }
+  },
   "files": [
-    "./index.js"
+    "dist",
+    "public"
   ],
   "scripts": {
     "build": "npm run build:ts && npm run build:docs",
-    "build:ts": "echo 0",
-    "build:docs": "echo 0",
+    "build:ts": "tsc --build",
+    "build:docs": "node scripts/buildDocs.mjs",
+    "lint": "oxlint",
     "release": "semantic-release",
+    "test": "npm run lint",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
+    "@getresponse/tsconfig": "2.0.1",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "13.0.1",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "12.0.6",
     "@semantic-release/npm": "13.1.5",
     "@semantic-release/release-notes-generator": "14.1.0",
-    "semantic-release": "25.0.3"
+    "@types/node": "25.6.0",
+    "@types/semver": "7.7.1",
+    "oxlint": "1.62.0",
+    "oxlint-tsgolint": "0.22.1",
+    "semantic-release": "25.0.3",
+    "typescript": "6.0.2"
+  },
+  "dependencies": {
+    "@stylistic/eslint-plugin": "5.10.0",
+    "eslint-plugin-jsx-a11y": "6.10.2",
+    "eslint-plugin-playwright": "2.10.1",
+    "eslint-plugin-react": "7.37.5",
+    "get-tsconfig": "4.13.7",
+    "semver": "7.7.4"
+  },
+  "peerDependencies": {
+    "oxlint": "^1.62.0",
+    "oxlint-tsgolint": "^0.22.1"
+  },
+  "peerDependenciesMeta": {
+    "oxlint-tsgolint": {
+      "optional": true
+    }
   }
 }
