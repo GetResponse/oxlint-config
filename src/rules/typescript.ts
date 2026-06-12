@@ -52,6 +52,13 @@ export default defineConfig({
             'typescript/array-type': ['warn', { default: 'array-simple' }],
             'typescript/adjacent-overload-signatures': 'warn',
             'typescript/ban-ts-comment': 'warn',
+            // Replaces the deprecated `ban-types` rule (split in typescript-eslint v8):
+            // https://typescript-eslint.io/blog/revamping-the-ban-types-rule/
+            'typescript/no-empty-object-type': 'error',
+            'typescript/no-unsafe-function-type': 'error',
+            'typescript/no-wrapper-object-types': 'error',
+            // `no-restricted-types` covers the old rule's custom-type banning; left off as no custom types are restricted here.
+            'typescript/no-restricted-types': 'off',
             'typescript/consistent-type-assertions': ['warn', { assertionStyle: 'as' }],
             'typescript/no-for-in-array': 'error',
             'typescript/no-implied-eval': 'error',
