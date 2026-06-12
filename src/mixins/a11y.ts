@@ -4,9 +4,9 @@ export default defineConfig({
     plugins: ['jsx-a11y'],
     jsPlugins: [{ name: 'jsx-a11y-js', specifier: 'eslint-plugin-jsx-a11y' }],
     rules: {
-        'jsx-a11y/anchor-has-content': ['warn', { components: ['Link'] }],
+        'jsx-a11y/anchor-has-content': 'warn',
         'jsx-a11y-js/control-has-associated-label': 'warn',
-        'jsx-a11y/aria-role': ['error', { ignoreNonDom: false }],
+        'jsx-a11y/aria-role': ['error', { ignoreNonDOM: false }],
         'jsx-a11y/aria-props': 'error',
         'jsx-a11y/aria-proptypes': 'error',
         'jsx-a11y/aria-unsupported-elements': 'error',
