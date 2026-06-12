@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/GetResponse/oxlint-config/compare/v1.1.0...v1.1.1) (2026-06-12)
+
+
+### Bug Fixes
+
+* **a11y:** adjust `aria-role` and `anchor-has-content` rules; correct typo in `ignoreNonDOM` ([67d08e9](https://github.com/GetResponse/oxlint-config/commit/67d08e985e6bdb5b234528ec43a7df2a6ce3e971))
+
 # [1.1.0](https://github.com/GetResponse/oxlint-config/compare/v1.0.0...v1.1.0) (2026-06-12)
 
 
