@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/GetResponse/oxlint-config/compare/v1.0.0...v1.1.0) (2026-06-12)
+
+
+### Features
+
+* **typescript:** replace deprecated `ban-types` with updated rules from typescript-eslint v8 ([fe69958](https://github.com/GetResponse/oxlint-config/commit/fe69958aa1b76329295f7e4e745ed8db56e21b42))
+
 # 1.0.0 (2026-05-05)
 
 
