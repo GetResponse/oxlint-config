@@ -20,4 +20,5 @@ mkdirSync(destDir, { recursive: true });
 writeFileSync(join(destDir, 'index.html'), html);
 
 const { enabled } = classified;
+// oxlint-disable-next-line no-console
 console.log(`Generated public/index.html — ${enabled.length} enabled rules`);
