@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/GetResponse/oxlint-config/compare/v1.1.1...v1.2.0) (2026-06-30)
+
+
+### Features
+
+* **deps:** update dependencies (oxlint, types, semver) to latest versions ([ef81bad](https://github.com/GetResponse/oxlint-config/commit/ef81bad65fcf5db39b104c10447722efb07cc497))
+
 ## [1.1.1](https://github.com/GetResponse/oxlint-config/compare/v1.1.0...v1.1.1) (2026-06-12)
 
 
